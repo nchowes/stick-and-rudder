@@ -1,0 +1,29 @@
+name: stick-and-rudder
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - black
+  - flake8
+  - isort
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ipykernel
+  - ipywidgets
+  - fsspec 
+  - s3fs
+  - numpy
+  - scipy
+  - sympy
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - plotly
+  - nbformat
+  - anywidget
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
